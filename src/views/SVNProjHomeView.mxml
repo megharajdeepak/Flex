@@ -9,13 +9,20 @@
 			
 			protected function view1_creationCompleteHandler(event:FlexEvent):void
 			{
-				//coded tested and released to production.
+				//coded tested and released to production. //another change in same line
 			}
 			
 			protected function button1_clickHandler(event:MouseEvent):void
 			{
-				//new button feature added.
+				//new button feature added. //change in same line
+				//some more changes in button1 click
 			}
+			
+			protected function button2_clickHandler(event:MouseEvent):void
+			{
+				//another click added.
+			}
+			
 		]]>
 	</fx:Script>
 	
@@ -24,4 +31,5 @@
 	</fx:Declarations>
 	
 		<s:Button label="Click Me!" click="button1_clickHandler(event)"/>
+	<s:Button label="Another Click" click="button2_clickHandler(event)"/>
 </s:View>
